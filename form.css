@@ -1,0 +1,47 @@
+body {
+    background: url('./background-2203989_1280.jpg') no-repeat center center fixed; /* Background image */
+    background-size: cover; /* Puri screen cover kare */
+    font-family: Arial,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;  
+    flex-direction: column;
+}
+.container{
+    background:rgb(205, 226, 234);
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    width: 400px;
+    text-align: center;
+}
+input , select , textarea {
+    width: 100%;
+padding: 10px;
+margin-bottom:10px ;
+border: 1px solid rgb(121, 221, 234);
+border-radius: 4px;
+}
+#rating{
+    width: 106%;
+}
+textarea{
+    resize: vertical;
+    height: 100px;
+}
+button{
+    padding: 10px 20px;
+    background-color:rgb(44, 118, 192);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color:rgb(17, 50, 62);
+}
+h1{
+    font-family: cursive;
+}
